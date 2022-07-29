@@ -30,24 +30,24 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.timeLabel = new System.Windows.Forms.Label();
+            this.dateLabel = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.elementHost1 = new System.Windows.Forms.Integration.ElementHost();
-            this.label3 = new System.Windows.Forms.Label();
+            this.birdLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.BackColor = System.Drawing.Color.Yellow;
-            this.label1.Name = "label1";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            resources.ApplyResources(this.timeLabel, "label1");
+            this.timeLabel.BackColor = System.Drawing.Color.Yellow;
+            this.timeLabel.Name = "label1";
+            this.timeLabel.Click += new System.EventHandler(this.timeLabel_Click);
             // 
             // label2
             // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
+            resources.ApplyResources(this.dateLabel, "label2");
+            this.dateLabel.Name = "label2";
             // 
             // timer1
             // 
@@ -62,17 +62,17 @@
             // 
             // label3
             // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.Name = "label3";
+            resources.ApplyResources(this.birdLabel, "label3");
+            this.birdLabel.Name = "label3";
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Yellow;
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.birdLabel);
+            this.Controls.Add(this.dateLabel);
+            this.Controls.Add(this.timeLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.TopMost = true;
@@ -84,11 +84,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label timeLabel;
+        private System.Windows.Forms.Label dateLabel;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Integration.ElementHost elementHost1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label birdLabel;
     }
 }
 
