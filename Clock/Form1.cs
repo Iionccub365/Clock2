@@ -21,8 +21,6 @@ namespace Clock
         private void Form1_Load(object sender, EventArgs e)
         {
             timer1.Start();
-            SoundPlayer sound = new SoundPlayer("startup.wav");
-            sound.PlaySync();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
