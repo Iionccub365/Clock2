@@ -1,3 +1,2 @@
-# Clock2
-Adds a little clock two the corner with BIRD FROM EGYPT!
-More soon
+#CLOCK TWO
+So for those wondering what I could be meaning by clock two, put it simply 20 hours a day, 20 minutes an hour, 216 seconds an hour. Oh and did I mention that the latest and greatest update has a new startup sound? and calender two, which is 12 months, 30 days in a month, with a bonus weekend to end it all off.
