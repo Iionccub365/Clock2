@@ -1,0 +1,13 @@
+C:\Users\iionc\source\repos\Clock\Clock\bin\Release\Clock.exe.config
+C:\Users\iionc\source\repos\Clock\Clock\bin\Release\Clock.exe
+C:\Users\iionc\source\repos\Clock\Clock\bin\Release\Clock.pdb
+C:\Users\iionc\source\repos\Clock\Clock\obj\Release\Clock.csproj.AssemblyReference.cache
+C:\Users\iionc\source\repos\Clock\Clock\obj\Release\Clock.csproj.SuggestedBindingRedirects.cache
+C:\Users\iionc\source\repos\Clock\Clock\obj\Release\Interop.WMPLib.dll
+C:\Users\iionc\source\repos\Clock\Clock\obj\Release\Clock.csproj.ResolveComReference.cache
+C:\Users\iionc\source\repos\Clock\Clock\obj\Release\Clock.Form1.resources
+C:\Users\iionc\source\repos\Clock\Clock\obj\Release\Clock.Properties.Resources.resources
+C:\Users\iionc\source\repos\Clock\Clock\obj\Release\Clock.csproj.GenerateResource.cache
+C:\Users\iionc\source\repos\Clock\Clock\obj\Release\Clock.csproj.CoreCompileInputs.cache
+C:\Users\iionc\source\repos\Clock\Clock\obj\Release\Clock.exe
+C:\Users\iionc\source\repos\Clock\Clock\obj\Release\Clock.pdb

@@ -1,0 +1,17 @@
+C:\Users\iionc\source\repos\Clock\Clock\bin\Debug\Clock.exe.config
+C:\Users\iionc\source\repos\Clock\Clock\bin\Debug\Clock.exe
+C:\Users\iionc\source\repos\Clock\Clock\bin\Debug\Clock.pdb
+C:\Users\iionc\source\repos\Clock\Clock\obj\Debug\Clock.csproj.AssemblyReference.cache
+C:\Users\iionc\source\repos\Clock\Clock\obj\Debug\Clock.csproj.SuggestedBindingRedirects.cache
+C:\Users\iionc\source\repos\Clock\Clock\obj\Debug\Clock.Form1.resources
+C:\Users\iionc\source\repos\Clock\Clock\obj\Debug\Clock.Properties.Resources.resources
+C:\Users\iionc\source\repos\Clock\Clock\obj\Debug\Clock.csproj.GenerateResource.cache
+C:\Users\iionc\source\repos\Clock\Clock\obj\Debug\Clock.csproj.CoreCompileInputs.cache
+C:\Users\iionc\source\repos\Clock\Clock\obj\Debug\Clock.exe
+C:\Users\iionc\source\repos\Clock\Clock\obj\Debug\Clock.pdb
+C:\Users\iionc\source\repos\Clock\Clock\obj\Debug\Interop.WMPLib.dll
+C:\Users\iionc\source\repos\Clock\Clock\obj\Debug\Clock.csproj.ResolveComReference.cache
+C:\Users\iionc\source\repos\Clock\Clock\obj\Debug\Clock.exe.manifest
+C:\Users\iionc\source\repos\Clock\Clock\bin\Debug\Clock.exe.manifest
+C:\Users\iionc\source\repos\Clock\Clock\bin\Debug\Clock.application
+C:\Users\iionc\source\repos\Clock\Clock\obj\Debug\Clock.application
