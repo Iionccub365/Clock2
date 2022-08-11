@@ -13,6 +13,8 @@ namespace Clock
 {
     public partial class Form1 : Form
     {
+        private Clock _clock = new Clock();
+        
         public Form1()
         {
             InitializeComponent();
@@ -25,88 +27,10 @@ namespace Clock
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            //ints for the time
-            int s = DateTime.Now.Second;
-            int m = DateTime.Now.Minute;
-            int h = DateTime.Now.Hour;
-            //ints for the day
-            int d = DateTime.Now.DayOfYear;
-            //int d = 364;
-            //math for the time
-            int secondOfDay = s + m * 60 + h * 3600;
-            int hour = secondOfDay / 4320;
-            int secondsAfterHour = secondOfDay - hour * 4320;
-            int minute = secondsAfterHour / 216;
-            int seconds = secondsAfterHour - minute * 216;
-            hour++;
-            minute++;
-            seconds++;
-            Console.WriteLine(hour);
-            Console.WriteLine(secondsAfterHour);
-            //maths for the day :D
-            int month = d / 30;
-            int day = d - month * 30 +1;
-            month++;
+            _clock.UpdateClock();
 
-            //Texts
-            //label1.Text = $"😁 {h}:{m}:{s}";
-            label1.Text = $"{hour:D2}:{minute:D2}:{seconds:D3}";
-            if(d == 365)
-            {
-                label2.Text = "January, 1";
-            }
-            if(month==1)
-            {
-                label2.Text = $"January, {day}";
-            }
-            if (month == 2)
-            {
-                label2.Text = $"Febuary, {day}";
-            }
-            if (month == 3)
-            {
-                label2.Text = $"Marchuary, {day}";
-            }
-            if (month == 4)
-            {
-                label2.Text = $"Apuary, {day}";
-            }
-            if (month == 5)
-            {
-                label2.Text = $"Jmay, {day}";
-            }
-            if (month == 6)
-            {
-                label2.Text = $"June, {day}";
-            }
-            if (month == 7)
-            {
-                label2.Text = $"July, {day}";
-            }
-            if (month == 8)
-            {
-                label2.Text = $"Jaugust, {day}";
-            }
-            if (month == 9)
-            {
-                label2.Text = $"September, {day}";
-            }
-            if (month == 10)
-            {
-                label2.Text = $"October, {day}";
-            }
-            if (month == 11)
-            {
-                label2.Text = $"November, {day}";
-            }
-            if (month == 12)
-            {
-                label2.Text = $"December, {day}";
-            }
-            if (month == 13)
-            {
-                label2.Text = $"Bonus Weekend, {day}";
-            }
+            label1.Text = $"{_clock.Hours:D2}:{_clock.Minutes:D2}:{_clock.Seconds:D3}";
+            label2.Text = $"{_clock.MonthLabel}";
         }
 
         private void label1_Click(object sender, EventArgs e)
