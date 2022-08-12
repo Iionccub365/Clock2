@@ -14,7 +14,7 @@ namespace Clock
     public partial class Form1 : Form
     {
         private Clock _clock = new Clock();
-        
+
         public Form1()
         {
             InitializeComponent();
@@ -30,7 +30,15 @@ namespace Clock
             _clock.UpdateClock();
 
             label1.Text = $"{_clock.Hours:D2}:{_clock.Minutes:D2}:{_clock.Seconds:D3}";
-            label2.Text = $"{_clock.MonthLabel}";
+
+            if (DateTime.Now.DayOfYear == 365)
+            {
+                label2.Text = "January, 1";
+            }
+            else
+            {
+                label2.Text = _clock.MonthLabel + ", " + _clock.Days;
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
