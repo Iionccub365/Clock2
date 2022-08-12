@@ -14,7 +14,24 @@ namespace Clock
 
         public int Months { get; private set; }
 
-        public string MonthLabel { get; private set; }
+        public string MonthLabel => _labels[Months];
+
+        private string[] _labels = {
+            "",
+            $"January",
+            $"Febuary",
+            $"Marchuary",
+            $"Apuary",
+            $"Jmay",
+            $"June",
+            $"July",
+            $"Jaugust",
+            $"September",
+            $"October",
+            $"November",
+            $"December",
+            $"Bonus Weekend"
+        };
 
         public void UpdateClock()
         {
@@ -22,7 +39,7 @@ namespace Clock
             int s = DateTime.Now.Second;
             int m = DateTime.Now.Minute;
             int h = DateTime.Now.Hour;
-            
+
             //ints for the day
             int d = DateTime.Now.DayOfYear;
 
@@ -44,63 +61,6 @@ namespace Clock
             Months = d / 30;
             Days = d - Months * 30 + 1;
             Months++;
-
-            if (d == 365)
-            {
-                MonthLabel = "January, 1";
-            }
-            if (Months == 1)
-            {
-                MonthLabel = $"January, {Days}";
-            }
-            if (Months == 2)
-            {
-                MonthLabel = $"Febuary, {Days}";
-            }
-            if (Months == 3)
-            {
-                MonthLabel = $"Marchuary, {Days}";
-            }
-            if (Months == 4)
-            {
-                MonthLabel = $"Apuary, {Days}";
-            }
-            if (Months == 5)
-            {
-                MonthLabel = $"Jmay, {Days}";
-            }
-            if (Months == 6)
-            {
-                MonthLabel = $"June, {Days}";
-            }
-            if (Months == 7)
-            {
-                MonthLabel = $"July, {Days}";
-            }
-            if (Months == 8)
-            {
-                MonthLabel = $"Jaugust, {Days}";
-            }
-            if (Months == 9)
-            {
-                MonthLabel = $"September, {Days}";
-            }
-            if (Months == 10)
-            {
-                MonthLabel = $"October, {Days}";
-            }
-            if (Months == 11)
-            {
-                MonthLabel = $"November, {Days}";
-            }
-            if (Months == 12)
-            {
-                MonthLabel = $"December, {Days}";
-            }
-            if (Months == 13)
-            {
-                MonthLabel = $"Bonus Weekend, {Days}";
-            }
         }
     }
 }
