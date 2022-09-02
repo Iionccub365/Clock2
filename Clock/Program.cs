@@ -20,8 +20,8 @@ namespace Clock
             Application.SetCompatibleTextRenderingDefault(false);
             DoStuff();
             var t = new Form1();
-            t.Top = Screen.PrimaryScreen.Bounds.Bottom - 125;
-            t.Left = Screen.PrimaryScreen.Bounds.Right - 250;
+            t.Top = Screen.PrimaryScreen.Bounds.Bottom - 175;
+            t.Left = Screen.PrimaryScreen.Bounds.Right - 360;
             Application.Run(t);
         }
         public static void DoStuff()
