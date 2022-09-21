@@ -21,7 +21,7 @@ namespace Clock
             DoStuff();
             var t = new Form1();
             t.Top = Screen.PrimaryScreen.Bounds.Bottom - 172;
-            t.Left = Screen.PrimaryScreen.Bounds.Right - 191;
+            t.Left = Screen.PrimaryScreen.Bounds.Right - 357;
             Application.Run(t);
         }
         public static void DoStuff()

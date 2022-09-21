@@ -36,12 +36,12 @@ namespace Clock
         public void UpdateClock()
         {
             //ints for the time
-            int s = DateTime.Now.Second;
-            int m = DateTime.Now.Minute;
-            int h = DateTime.Now.Hour;
+            int s = DateTime.UtcNow.Second;
+            int m = DateTime.UtcNow.Minute;
+            int h = DateTime.UtcNow.Hour;
 
             //ints for the day
-            int d = DateTime.Now.DayOfYear;
+            int d = DateTime.UtcNow.DayOfYear;
 
             //math for the time
             int secondOfDay = s + m * 60 + h * 3600;
