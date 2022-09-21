@@ -41,7 +41,9 @@ namespace Clock
             {
                 label2.Text = _clock.MonthLabel + ", " + _clock.Days;
             }
-        }
+            label6.Text = $"{DateTime.Now.Hour:D2}:{DateTime.Now.Minute:D2}:{DateTime.Now.Second:D2}";
+            label7.Text = DateTime.Now.ToShortDateString();
+        } 
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -83,6 +85,16 @@ namespace Clock
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
         {
 
         }
