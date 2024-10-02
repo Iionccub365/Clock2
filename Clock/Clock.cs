@@ -19,7 +19,7 @@ namespace Clock
         private string[] _labels = {
             "",
             $"January",
-            $"Febuary",
+            $"February",
             $"Marchuary",
             $"Apuary",
             $"Jmay",
